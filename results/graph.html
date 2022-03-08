@@ -1,0 +1,789 @@
+<html>
+<head>
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+<script type="text/javascript">google.load('visualization', '1.0', {'packages':['corechart']});</script>
+</head>
+<body>
+<script type="text/javascript">
+function draw_fill_back___struct_Trivial_32_(){
+var data = google.visualization.arrayToDataTable([
+['x', 'vector', 'vector_reserve', 'list', 'deque', 'colony', 'cluster_vector', 'cluster_map'],
+['10000', 304, 279, 49, 347, 39, 34, 128],
+['20000', 567, 579, 79, 652, 77, 77, 279],
+['30000', 902, 930, 111, 921, 184, 102, 397],
+['40000', 824, 1301, 161, 1329, 178, 177, 570],
+['50000', 1066, 1622, 179, 1711, 249, 219, 724],
+['60000', 1108, 1933, 200, 1978, 277, 272, 897],
+['70000', 1408, 2288, 233, 2473, 349, 355, 1078],
+['80000', 1402, 2604, 284, 2626, 463, 403, 1238],
+['90000', 1487, 3128, 317, 3021, 570, 464, 1430],
+['100000', 1887, 3350, 341, 3213, 631, 504, 1590],
+]);
+var graph = new google.visualization.LineChart(document.getElementById('graph_fill_back___struct_Trivial_32_'));
+var options = {curveType: "function",title: "fill_back - struct Trivial<32>",animation: {duration:1200, easing:"in"},width: 700, height: 400,hAxis: {title:"Number of elements", slantedText:true},vAxis: {viewWindow: {min:0}, title:"us"}};
+graph.draw(data, options);
+var button = document.getElementById('graph_button_fill_back___struct_Trivial_32_');
+button.onclick = function(){
+if(options.vAxis.logScale){
+button.value="Logarithmic Scale";
+} else {
+button.value="Normal scale";
+}
+options.vAxis.logScale=!options.vAxis.logScale;
+graph.draw(data, options);
+};
+}
+function draw_fill_back___struct_Trivial_64_(){
+var data = google.visualization.arrayToDataTable([
+['x', 'vector', 'vector_reserve', 'list', 'deque', 'colony', 'cluster_vector', 'cluster_map'],
+['10000', 148, 252, 40, 243, 43, 41, 128],
+['20000', 586, 459, 148, 473, 125, 113, 298],
+['30000', 949, 681, 261, 701, 211, 201, 492],
+['40000', 841, 945, 332, 958, 328, 290, 708],
+['50000', 1245, 1226, 334, 1172, 413, 374, 898],
+['60000', 1290, 1391, 389, 1406, 502, 475, 1082],
+['70000', 1830, 1662, 439, 1900, 611, 544, 1305],
+['80000', 1900, 1987, 479, 2069, 698, 624, 1496],
+['90000', 1964, 2293, 551, 2303, 979, 708, 1674],
+['100000', 2741, 2778, 623, 2489, 876, 834, 2126],
+]);
+var graph = new google.visualization.LineChart(document.getElementById('graph_fill_back___struct_Trivial_64_'));
+var options = {curveType: "function",title: "fill_back - struct Trivial<64>",animation: {duration:1200, easing:"in"},width: 700, height: 400,hAxis: {title:"Number of elements", slantedText:true},vAxis: {viewWindow: {min:0}, title:"us"}};
+graph.draw(data, options);
+var button = document.getElementById('graph_button_fill_back___struct_Trivial_64_');
+button.onclick = function(){
+if(options.vAxis.logScale){
+button.value="Logarithmic Scale";
+} else {
+button.value="Normal scale";
+}
+options.vAxis.logScale=!options.vAxis.logScale;
+graph.draw(data, options);
+};
+}
+function draw_fill_back___struct_Trivial_128_(){
+var data = google.visualization.arrayToDataTable([
+['x', 'vector', 'vector_reserve', 'list', 'deque', 'colony', 'cluster_vector', 'cluster_map'],
+['10000', 394, 392, 179, 353, 114, 101, 190],
+['20000', 1015, 740, 336, 719, 291, 260, 485],
+['30000', 1635, 1122, 502, 1096, 456, 405, 746],
+['40000', 1667, 1500, 619, 1438, 653, 552, 1035],
+['50000', 2429, 2294, 597, 1806, 781, 685, 1544],
+['60000', 2555, 2476, 717, 2139, 919, 821, 1841],
+['70000', 3599, 2901, 862, 2596, 1402, 980, 1857],
+['80000', 4662, 3438, 959, 3008, 1288, 1120, 2142],
+['90000', 3878, 4132, 1063, 3367, 1442, 1229, 2406],
+['100000', 5408, 4746, 1253, 3876, 1574, 1376, 2657],
+]);
+var graph = new google.visualization.LineChart(document.getElementById('graph_fill_back___struct_Trivial_128_'));
+var options = {curveType: "function",title: "fill_back - struct Trivial<128>",animation: {duration:1200, easing:"in"},width: 700, height: 400,hAxis: {title:"Number of elements", slantedText:true},vAxis: {viewWindow: {min:0}, title:"us"}};
+graph.draw(data, options);
+var button = document.getElementById('graph_button_fill_back___struct_Trivial_128_');
+button.onclick = function(){
+if(options.vAxis.logScale){
+button.value="Logarithmic Scale";
+} else {
+button.value="Normal scale";
+}
+options.vAxis.logScale=!options.vAxis.logScale;
+graph.draw(data, options);
+};
+}
+function draw_fill_back___struct_Trivial_1024_(){
+var data = google.visualization.arrayToDataTable([
+['x', 'vector', 'vector_reserve', 'list', 'deque', 'colony', 'cluster_vector', 'cluster_map'],
+['10000', 3947, 1115, 999, 1028, 1280, 1258, 1546],
+['20000', 8635, 2360, 1937, 2229, 2439, 2472, 3137],
+['30000', 13053, 3573, 2918, 3173, 3596, 3703, 4735],
+['40000', 15266, 4966, 3868, 4356, 4830, 3936, 6545],
+['50000', 23716, 6960, 4851, 5394, 4955, 4911, 7824],
+['60000', 25860, 10292, 7439, 6382, 5752, 7643, 7866],
+['70000', 35332, 10934, 10570, 7450, 6778, 8761, 9008],
+['80000', 31483, 13752, 9522, 8575, 7665, 7927, 10215],
+['90000', 33722, 16783, 8579, 10626, 8596, 8832, 12036],
+['100000', 51156, 19661, 9646, 12269, 11463, 10937, 16313],
+]);
+var graph = new google.visualization.LineChart(document.getElementById('graph_fill_back___struct_Trivial_1024_'));
+var options = {curveType: "function",title: "fill_back - struct Trivial<1024>",animation: {duration:1200, easing:"in"},width: 700, height: 400,hAxis: {title:"Number of elements", slantedText:true},vAxis: {viewWindow: {min:0}, title:"us"}};
+graph.draw(data, options);
+var button = document.getElementById('graph_button_fill_back___struct_Trivial_1024_');
+button.onclick = function(){
+if(options.vAxis.logScale){
+button.value="Logarithmic Scale";
+} else {
+button.value="Normal scale";
+}
+options.vAxis.logScale=!options.vAxis.logScale;
+graph.draw(data, options);
+};
+}
+function draw_fill_back___class_NonTrivialArray_32_(){
+var data = google.visualization.arrayToDataTable([
+['x', 'vector', 'vector_reserve', 'list', 'deque', 'colony', 'cluster_vector', 'cluster_map'],
+['10000', 60, 221, 21, 233, 34, 31, 127],
+['20000', 127, 424, 41, 455, 68, 61, 256],
+['30000', 243, 638, 67, 661, 110, 90, 376],
+['40000', 281, 850, 158, 902, 132, 164, 574],
+['50000', 505, 1049, 216, 1091, 206, 206, 715],
+['60000', 518, 1273, 280, 1300, 279, 259, 887],
+['70000', 853, 1490, 234, 1660, 347, 340, 1075],
+['80000', 876, 1710, 273, 1878, 416, 390, 1240],
+['90000', 917, 1930, 312, 2098, 488, 449, 1409],
+['100000', 1336, 2132, 343, 2348, 591, 500, 1563],
+]);
+var graph = new google.visualization.LineChart(document.getElementById('graph_fill_back___class_NonTrivialArray_32_'));
+var options = {curveType: "function",title: "fill_back - class NonTrivialArray<32>",animation: {duration:1200, easing:"in"},width: 700, height: 400,hAxis: {title:"Number of elements", slantedText:true},vAxis: {viewWindow: {min:0}, title:"us"}};
+graph.draw(data, options);
+var button = document.getElementById('graph_button_fill_back___class_NonTrivialArray_32_');
+button.onclick = function(){
+if(options.vAxis.logScale){
+button.value="Logarithmic Scale";
+} else {
+button.value="Normal scale";
+}
+options.vAxis.logScale=!options.vAxis.logScale;
+graph.draw(data, options);
+};
+}
+function draw_sequential_read___struct_Trivial_32_(){
+var data = google.visualization.arrayToDataTable([
+['x', 'vector', 'list', 'deque', 'colony', 'cluster_vector', 'cluster_map'],
+['10000', 4, 42, 15, 14, 5, 6],
+['20000', 15, 85, 32, 28, 14, 16],
+['30000', 17, 132, 47, 42, 22, 36],
+['40000', 27, 183, 73, 58, 31, 38],
+['50000', 40, 226, 87, 73, 44, 49],
+['60000', 51, 327, 106, 89, 48, 64],
+['70000', 84, 397, 148, 103, 62, 79],
+['80000', 92, 578, 188, 120, 80, 93],
+['90000', 106, 520, 200, 137, 94, 122],
+['100000', 112, 631, 236, 151, 109, 133],
+]);
+var graph = new google.visualization.LineChart(document.getElementById('graph_sequential_read___struct_Trivial_32_'));
+var options = {curveType: "function",title: "sequential_read - struct Trivial<32>",animation: {duration:1200, easing:"in"},width: 700, height: 400,hAxis: {title:"Number of elements", slantedText:true},vAxis: {viewWindow: {min:0}, title:"us"}};
+graph.draw(data, options);
+var button = document.getElementById('graph_button_sequential_read___struct_Trivial_32_');
+button.onclick = function(){
+if(options.vAxis.logScale){
+button.value="Logarithmic Scale";
+} else {
+button.value="Normal scale";
+}
+options.vAxis.logScale=!options.vAxis.logScale;
+graph.draw(data, options);
+};
+}
+function draw_sequential_read___struct_Trivial_64_(){
+var data = google.visualization.arrayToDataTable([
+['x', 'vector', 'list', 'deque', 'colony', 'cluster_vector', 'cluster_map'],
+['10000', 15, 61, 23, 16, 13, 14],
+['20000', 34, 108, 47, 32, 25, 31],
+['30000', 70, 176, 69, 49, 39, 52],
+['40000', 91, 222, 100, 76, 61, 77],
+['50000', 110, 320, 161, 117, 85, 101],
+['60000', 129, 418, 194, 123, 114, 141],
+['70000', 154, 690, 219, 158, 138, 157],
+['80000', 165, 718, 299, 183, 167, 180],
+['90000', 188, 770, 325, 202, 199, 217],
+['100000', 228, 917, 374, 220, 224, 233],
+]);
+var graph = new google.visualization.LineChart(document.getElementById('graph_sequential_read___struct_Trivial_64_'));
+var options = {curveType: "function",title: "sequential_read - struct Trivial<64>",animation: {duration:1200, easing:"in"},width: 700, height: 400,hAxis: {title:"Number of elements", slantedText:true},vAxis: {viewWindow: {min:0}, title:"us"}};
+graph.draw(data, options);
+var button = document.getElementById('graph_button_sequential_read___struct_Trivial_64_');
+button.onclick = function(){
+if(options.vAxis.logScale){
+button.value="Logarithmic Scale";
+} else {
+button.value="Normal scale";
+}
+options.vAxis.logScale=!options.vAxis.logScale;
+graph.draw(data, options);
+};
+}
+function draw_sequential_read___struct_Trivial_128_(){
+var data = google.visualization.arrayToDataTable([
+['x', 'vector', 'list', 'deque', 'colony', 'cluster_vector', 'cluster_map'],
+['10000', 11, 99, 33, 28, 28, 30],
+['20000', 98, 190, 72, 58, 50, 54],
+['30000', 126, 295, 106, 95, 97, 114],
+['40000', 164, 431, 148, 134, 131, 126],
+['50000', 209, 601, 196, 185, 243, 168],
+['60000', 234, 762, 253, 222, 214, 206],
+['70000', 281, 953, 313, 282, 276, 241],
+['80000', 297, 1184, 357, 328, 319, 264],
+['90000', 308, 1466, 425, 368, 349, 319],
+['100000', 464, 1729, 505, 405, 416, 334],
+]);
+var graph = new google.visualization.LineChart(document.getElementById('graph_sequential_read___struct_Trivial_128_'));
+var options = {curveType: "function",title: "sequential_read - struct Trivial<128>",animation: {duration:1200, easing:"in"},width: 700, height: 400,hAxis: {title:"Number of elements", slantedText:true},vAxis: {viewWindow: {min:0}, title:"us"}};
+graph.draw(data, options);
+var button = document.getElementById('graph_button_sequential_read___struct_Trivial_128_');
+button.onclick = function(){
+if(options.vAxis.logScale){
+button.value="Logarithmic Scale";
+} else {
+button.value="Normal scale";
+}
+options.vAxis.logScale=!options.vAxis.logScale;
+graph.draw(data, options);
+};
+}
+function draw_sequential_read___struct_Trivial_1024_(){
+var data = google.visualization.arrayToDataTable([
+['x', 'vector', 'list', 'deque', 'colony', 'cluster_vector', 'cluster_map'],
+['10000', 37, 287, 36, 30, 26, 30],
+['20000', 73, 692, 107, 103, 74, 69],
+['30000', 110, 1516, 205, 106, 175, 109],
+['40000', 159, 2388, 298, 140, 141, 149],
+['50000', 185, 3033, 354, 193, 169, 173],
+['60000', 235, 3636, 428, 199, 307, 212],
+['70000', 261, 4273, 483, 229, 222, 311],
+['80000', 302, 4888, 557, 255, 261, 276],
+['90000', 319, 5705, 651, 304, 304, 301],
+['100000', 500, 6461, 741, 393, 326, 343],
+]);
+var graph = new google.visualization.LineChart(document.getElementById('graph_sequential_read___struct_Trivial_1024_'));
+var options = {curveType: "function",title: "sequential_read - struct Trivial<1024>",animation: {duration:1200, easing:"in"},width: 700, height: 400,hAxis: {title:"Number of elements", slantedText:true},vAxis: {viewWindow: {min:0}, title:"us"}};
+graph.draw(data, options);
+var button = document.getElementById('graph_button_sequential_read___struct_Trivial_1024_');
+button.onclick = function(){
+if(options.vAxis.logScale){
+button.value="Logarithmic Scale";
+} else {
+button.value="Normal scale";
+}
+options.vAxis.logScale=!options.vAxis.logScale;
+graph.draw(data, options);
+};
+}
+function draw_sequential_read___class_NonTrivialArray_32_(){
+var data = google.visualization.arrayToDataTable([
+['x', 'vector', 'list', 'deque', 'colony', 'cluster_vector', 'cluster_map'],
+['10000', 4, 36, 16, 14, 4, 6],
+['20000', 13, 85, 39, 29, 14, 13],
+['30000', 23, 133, 57, 44, 21, 25],
+['40000', 31, 184, 80, 59, 31, 34],
+['50000', 44, 225, 110, 76, 39, 52],
+['60000', 58, 303, 127, 88, 45, 62],
+['70000', 67, 365, 162, 105, 65, 84],
+['80000', 85, 448, 196, 120, 74, 96],
+['90000', 92, 472, 227, 141, 92, 116],
+['100000', 125, 565, 262, 153, 101, 134],
+]);
+var graph = new google.visualization.LineChart(document.getElementById('graph_sequential_read___class_NonTrivialArray_32_'));
+var options = {curveType: "function",title: "sequential_read - class NonTrivialArray<32>",animation: {duration:1200, easing:"in"},width: 700, height: 400,hAxis: {title:"Number of elements", slantedText:true},vAxis: {viewWindow: {min:0}, title:"us"}};
+graph.draw(data, options);
+var button = document.getElementById('graph_button_sequential_read___class_NonTrivialArray_32_');
+button.onclick = function(){
+if(options.vAxis.logScale){
+button.value="Logarithmic Scale";
+} else {
+button.value="Normal scale";
+}
+options.vAxis.logScale=!options.vAxis.logScale;
+graph.draw(data, options);
+};
+}
+function draw_sequential_write___struct_Trivial_32_(){
+var data = google.visualization.arrayToDataTable([
+['x', 'vector', 'list', 'deque', 'colony', 'cluster_vector', 'cluster_map'],
+['10000', 5, 44, 18, 14, 4, 6],
+['20000', 15, 85, 36, 29, 12, 16],
+['30000', 18, 131, 54, 44, 19, 27],
+['40000', 27, 201, 79, 58, 27, 45],
+['50000', 40, 259, 96, 74, 38, 54],
+['60000', 51, 319, 128, 88, 46, 66],
+['70000', 93, 374, 157, 104, 62, 83],
+['80000', 123, 463, 191, 130, 79, 103],
+['90000', 123, 515, 222, 143, 92, 128],
+['100000', 130, 597, 243, 162, 109, 144],
+]);
+var graph = new google.visualization.LineChart(document.getElementById('graph_sequential_write___struct_Trivial_32_'));
+var options = {curveType: "function",title: "sequential_write - struct Trivial<32>",animation: {duration:1200, easing:"in"},width: 700, height: 400,hAxis: {title:"Number of elements", slantedText:true},vAxis: {viewWindow: {min:0}, title:"us"}};
+graph.draw(data, options);
+var button = document.getElementById('graph_button_sequential_write___struct_Trivial_32_');
+button.onclick = function(){
+if(options.vAxis.logScale){
+button.value="Logarithmic Scale";
+} else {
+button.value="Normal scale";
+}
+options.vAxis.logScale=!options.vAxis.logScale;
+graph.draw(data, options);
+};
+}
+function draw_sequential_write___struct_Trivial_64_(){
+var data = google.visualization.arrayToDataTable([
+['x', 'vector', 'list', 'deque', 'colony', 'cluster_vector', 'cluster_map'],
+['10000', 16, 59, 24, 16, 13, 15],
+['20000', 27, 106, 44, 39, 27, 29],
+['30000', 86, 165, 67, 55, 39, 40],
+['40000', 108, 254, 112, 75, 68, 83],
+['50000', 172, 329, 125, 108, 90, 118],
+['60000', 205, 427, 183, 142, 124, 141],
+['70000', 211, 553, 251, 176, 148, 205],
+['80000', 250, 718, 273, 209, 183, 230],
+['90000', 287, 856, 339, 243, 261, 254],
+['100000', 314, 949, 410, 292, 259, 299],
+]);
+var graph = new google.visualization.LineChart(document.getElementById('graph_sequential_write___struct_Trivial_64_'));
+var options = {curveType: "function",title: "sequential_write - struct Trivial<64>",animation: {duration:1200, easing:"in"},width: 700, height: 400,hAxis: {title:"Number of elements", slantedText:true},vAxis: {viewWindow: {min:0}, title:"us"}};
+graph.draw(data, options);
+var button = document.getElementById('graph_button_sequential_write___struct_Trivial_64_');
+button.onclick = function(){
+if(options.vAxis.logScale){
+button.value="Logarithmic Scale";
+} else {
+button.value="Normal scale";
+}
+options.vAxis.logScale=!options.vAxis.logScale;
+graph.draw(data, options);
+};
+}
+function draw_sequential_write___struct_Trivial_128_(){
+var data = google.visualization.arrayToDataTable([
+['x', 'vector', 'list', 'deque', 'colony', 'cluster_vector', 'cluster_map'],
+['10000', 12, 97, 36, 33, 30, 28],
+['20000', 108, 184, 67, 64, 61, 54],
+['30000', 172, 322, 123, 107, 109, 95],
+['40000', 187, 432, 154, 159, 165, 143],
+['50000', 229, 598, 198, 212, 212, 199],
+['60000', 252, 791, 270, 260, 274, 247],
+['70000', 286, 1001, 304, 319, 320, 287],
+['80000', 314, 1172, 377, 360, 368, 349],
+['90000', 328, 1563, 457, 409, 421, 399],
+['100000', 400, 1673, 554, 448, 493, 566],
+]);
+var graph = new google.visualization.LineChart(document.getElementById('graph_sequential_write___struct_Trivial_128_'));
+var options = {curveType: "function",title: "sequential_write - struct Trivial<128>",animation: {duration:1200, easing:"in"},width: 700, height: 400,hAxis: {title:"Number of elements", slantedText:true},vAxis: {viewWindow: {min:0}, title:"us"}};
+graph.draw(data, options);
+var button = document.getElementById('graph_button_sequential_write___struct_Trivial_128_');
+button.onclick = function(){
+if(options.vAxis.logScale){
+button.value="Logarithmic Scale";
+} else {
+button.value="Normal scale";
+}
+options.vAxis.logScale=!options.vAxis.logScale;
+graph.draw(data, options);
+};
+}
+function draw_sequential_write___struct_Trivial_1024_(){
+var data = google.visualization.arrayToDataTable([
+['x', 'vector', 'list', 'deque', 'colony', 'cluster_vector', 'cluster_map'],
+['10000', 39, 222, 40, 37, 30, 22],
+['20000', 78, 630, 123, 72, 84, 64],
+['30000', 116, 1535, 221, 122, 140, 140],
+['40000', 167, 2321, 302, 177, 207, 167],
+['50000', 406, 3067, 385, 212, 310, 264],
+['60000', 280, 3675, 459, 330, 289, 239],
+['70000', 340, 4243, 534, 311, 485, 286],
+['80000', 371, 5033, 615, 333, 474, 323],
+['90000', 448, 5810, 697, 379, 458, 377],
+['100000', 475, 6537, 791, 419, 662, 425],
+]);
+var graph = new google.visualization.LineChart(document.getElementById('graph_sequential_write___struct_Trivial_1024_'));
+var options = {curveType: "function",title: "sequential_write - struct Trivial<1024>",animation: {duration:1200, easing:"in"},width: 700, height: 400,hAxis: {title:"Number of elements", slantedText:true},vAxis: {viewWindow: {min:0}, title:"us"}};
+graph.draw(data, options);
+var button = document.getElementById('graph_button_sequential_write___struct_Trivial_1024_');
+button.onclick = function(){
+if(options.vAxis.logScale){
+button.value="Logarithmic Scale";
+} else {
+button.value="Normal scale";
+}
+options.vAxis.logScale=!options.vAxis.logScale;
+graph.draw(data, options);
+};
+}
+function draw_sequential_write___class_NonTrivialArray_32_(){
+var data = google.visualization.arrayToDataTable([
+['x', 'vector', 'list', 'deque', 'colony', 'cluster_vector', 'cluster_map'],
+['10000', 5, 39, 17, 14, 4, 6],
+['20000', 17, 88, 36, 30, 15, 15],
+['30000', 25, 137, 52, 49, 23, 26],
+['40000', 33, 215, 73, 59, 33, 35],
+['50000', 46, 222, 91, 77, 38, 48],
+['60000', 63, 308, 125, 90, 47, 64],
+['70000', 78, 350, 156, 108, 62, 87],
+['80000', 92, 411, 196, 124, 77, 104],
+['90000', 101, 463, 218, 141, 91, 124],
+['100000', 126, 781, 247, 155, 109, 152],
+]);
+var graph = new google.visualization.LineChart(document.getElementById('graph_sequential_write___class_NonTrivialArray_32_'));
+var options = {curveType: "function",title: "sequential_write - class NonTrivialArray<32>",animation: {duration:1200, easing:"in"},width: 700, height: 400,hAxis: {title:"Number of elements", slantedText:true},vAxis: {viewWindow: {min:0}, title:"us"}};
+graph.draw(data, options);
+var button = document.getElementById('graph_button_sequential_write___class_NonTrivialArray_32_');
+button.onclick = function(){
+if(options.vAxis.logScale){
+button.value="Logarithmic Scale";
+} else {
+button.value="Normal scale";
+}
+options.vAxis.logScale=!options.vAxis.logScale;
+graph.draw(data, options);
+};
+}
+function draw_random_read___struct_Trivial_32_(){
+var data = google.visualization.arrayToDataTable([
+['x', 'vector', 'list', 'deque', 'colony', 'cluster_vector', 'cluster_map'],
+['10000', 16, 10, 16, 8, 12, 18],
+['20000', 44, 30, 48, 29, 33, 49],
+['30000', 66, 49, 98, 48, 59, 106],
+['40000', 108, 69, 104, 76, 97, 114],
+['50000', 160, 90, 154, 94, 167, 150],
+['60000', 240, 118, 188, 115, 170, 214],
+['70000', 272, 136, 271, 148, 241, 256],
+['80000', 300, 153, 314, 169, 277, 319],
+['90000', 342, 180, 363, 213, 316, 358],
+['100000', 389, 195, 390, 324, 345, 412],
+]);
+var graph = new google.visualization.LineChart(document.getElementById('graph_random_read___struct_Trivial_32_'));
+var options = {curveType: "function",title: "random_read - struct Trivial<32>",animation: {duration:1200, easing:"in"},width: 700, height: 400,hAxis: {title:"Number of elements", slantedText:true},vAxis: {viewWindow: {min:0}, title:"us"}};
+graph.draw(data, options);
+var button = document.getElementById('graph_button_random_read___struct_Trivial_32_');
+button.onclick = function(){
+if(options.vAxis.logScale){
+button.value="Logarithmic Scale";
+} else {
+button.value="Normal scale";
+}
+options.vAxis.logScale=!options.vAxis.logScale;
+graph.draw(data, options);
+};
+}
+function draw_random_read___struct_Trivial_64_(){
+var data = google.visualization.arrayToDataTable([
+['x', 'vector', 'list', 'deque', 'colony', 'cluster_vector', 'cluster_map'],
+['10000', 26, 15, 30, 21, 22, 29],
+['20000', 63, 34, 66, 52, 61, 68],
+['30000', 144, 50, 146, 122, 101, 127],
+['40000', 176, 77, 180, 146, 185, 187],
+['50000', 277, 94, 251, 194, 200, 246],
+['60000', 304, 126, 285, 242, 248, 303],
+['70000', 336, 153, 326, 280, 299, 372],
+['80000', 372, 166, 510, 358, 354, 431],
+['90000', 468, 200, 436, 408, 402, 496],
+['100000', 479, 220, 477, 471, 452, 631],
+]);
+var graph = new google.visualization.LineChart(document.getElementById('graph_random_read___struct_Trivial_64_'));
+var options = {curveType: "function",title: "random_read - struct Trivial<64>",animation: {duration:1200, easing:"in"},width: 700, height: 400,hAxis: {title:"Number of elements", slantedText:true},vAxis: {viewWindow: {min:0}, title:"us"}};
+graph.draw(data, options);
+var button = document.getElementById('graph_button_random_read___struct_Trivial_64_');
+button.onclick = function(){
+if(options.vAxis.logScale){
+button.value="Logarithmic Scale";
+} else {
+button.value="Normal scale";
+}
+options.vAxis.logScale=!options.vAxis.logScale;
+graph.draw(data, options);
+};
+}
+function draw_random_read___struct_Trivial_128_(){
+var data = google.visualization.arrayToDataTable([
+['x', 'vector', 'list', 'deque', 'colony', 'cluster_vector', 'cluster_map'],
+['10000', 23, 26, 16, 25, 32, 38],
+['20000', 125, 49, 102, 61, 75, 87],
+['30000', 170, 72, 189, 109, 130, 145],
+['40000', 226, 113, 231, 169, 184, 211],
+['50000', 292, 158, 308, 202, 230, 274],
+['60000', 352, 190, 402, 244, 307, 448],
+['70000', 381, 227, 370, 315, 367, 423],
+['80000', 409, 264, 443, 356, 410, 455],
+['90000', 412, 314, 397, 542, 480, 532],
+['100000', 592, 455, 490, 466, 645, 564],
+]);
+var graph = new google.visualization.LineChart(document.getElementById('graph_random_read___struct_Trivial_128_'));
+var options = {curveType: "function",title: "random_read - struct Trivial<128>",animation: {duration:1200, easing:"in"},width: 700, height: 400,hAxis: {title:"Number of elements", slantedText:true},vAxis: {viewWindow: {min:0}, title:"us"}};
+graph.draw(data, options);
+var button = document.getElementById('graph_button_random_read___struct_Trivial_128_');
+button.onclick = function(){
+if(options.vAxis.logScale){
+button.value="Logarithmic Scale";
+} else {
+button.value="Normal scale";
+}
+options.vAxis.logScale=!options.vAxis.logScale;
+graph.draw(data, options);
+};
+}
+function draw_random_read___struct_Trivial_1024_(){
+var data = google.visualization.arrayToDataTable([
+['x', 'vector', 'list', 'deque', 'colony', 'cluster_vector', 'cluster_map'],
+['10000', 52, 32, 53, 53, 40, 84],
+['20000', 110, 61, 103, 150, 110, 160],
+['30000', 250, 96, 178, 222, 162, 242],
+['40000', 222, 138, 215, 389, 218, 352],
+['50000', 271, 175, 264, 391, 324, 395],
+['60000', 456, 213, 330, 318, 340, 402],
+['70000', 372, 251, 439, 420, 392, 616],
+['80000', 441, 320, 464, 417, 467, 565],
+['90000', 612, 363, 565, 470, 702, 585],
+['100000', 533, 341, 527, 532, 598, 653],
+]);
+var graph = new google.visualization.LineChart(document.getElementById('graph_random_read___struct_Trivial_1024_'));
+var options = {curveType: "function",title: "random_read - struct Trivial<1024>",animation: {duration:1200, easing:"in"},width: 700, height: 400,hAxis: {title:"Number of elements", slantedText:true},vAxis: {viewWindow: {min:0}, title:"us"}};
+graph.draw(data, options);
+var button = document.getElementById('graph_button_random_read___struct_Trivial_1024_');
+button.onclick = function(){
+if(options.vAxis.logScale){
+button.value="Logarithmic Scale";
+} else {
+button.value="Normal scale";
+}
+options.vAxis.logScale=!options.vAxis.logScale;
+graph.draw(data, options);
+};
+}
+function draw_random_read___class_NonTrivialArray_32_(){
+var data = google.visualization.arrayToDataTable([
+['x', 'vector', 'list', 'deque', 'colony', 'cluster_vector', 'cluster_map'],
+['10000', 12, 12, 11, 16, 12, 18],
+['20000', 51, 35, 45, 32, 44, 44],
+['30000', 100, 46, 77, 50, 71, 85],
+['40000', 106, 77, 123, 76, 107, 122],
+['50000', 156, 97, 146, 93, 141, 156],
+['60000', 190, 125, 197, 130, 186, 302],
+['70000', 243, 139, 249, 140, 218, 271],
+['80000', 280, 215, 309, 188, 272, 351],
+['90000', 334, 183, 324, 217, 311, 382],
+['100000', 497, 197, 374, 254, 370, 430],
+]);
+var graph = new google.visualization.LineChart(document.getElementById('graph_random_read___class_NonTrivialArray_32_'));
+var options = {curveType: "function",title: "random_read - class NonTrivialArray<32>",animation: {duration:1200, easing:"in"},width: 700, height: 400,hAxis: {title:"Number of elements", slantedText:true},vAxis: {viewWindow: {min:0}, title:"us"}};
+graph.draw(data, options);
+var button = document.getElementById('graph_button_random_read___class_NonTrivialArray_32_');
+button.onclick = function(){
+if(options.vAxis.logScale){
+button.value="Logarithmic Scale";
+} else {
+button.value="Normal scale";
+}
+options.vAxis.logScale=!options.vAxis.logScale;
+graph.draw(data, options);
+};
+}
+function draw_random_write___struct_Trivial_32_(){
+var data = google.visualization.arrayToDataTable([
+['x', 'vector', 'list', 'deque', 'colony', 'cluster_vector', 'cluster_map'],
+['10000', 4, 42, 16, 14, 4, 6],
+['20000', 15, 86, 36, 28, 12, 15],
+['30000', 19, 133, 51, 44, 18, 24],
+['40000', 27, 197, 72, 58, 27, 36],
+['50000', 45, 248, 99, 73, 40, 48],
+['60000', 73, 340, 118, 90, 46, 66],
+['70000', 92, 377, 160, 106, 55, 79],
+['80000', 112, 443, 184, 118, 80, 104],
+['90000', 118, 695, 212, 134, 92, 118],
+['100000', 134, 620, 246, 157, 105, 142],
+]);
+var graph = new google.visualization.LineChart(document.getElementById('graph_random_write___struct_Trivial_32_'));
+var options = {curveType: "function",title: "random_write - struct Trivial<32>",animation: {duration:1200, easing:"in"},width: 700, height: 400,hAxis: {title:"Number of elements", slantedText:true},vAxis: {viewWindow: {min:0}, title:"us"}};
+graph.draw(data, options);
+var button = document.getElementById('graph_button_random_write___struct_Trivial_32_');
+button.onclick = function(){
+if(options.vAxis.logScale){
+button.value="Logarithmic Scale";
+} else {
+button.value="Normal scale";
+}
+options.vAxis.logScale=!options.vAxis.logScale;
+graph.draw(data, options);
+};
+}
+function draw_random_write___struct_Trivial_64_(){
+var data = google.visualization.arrayToDataTable([
+['x', 'vector', 'list', 'deque', 'colony', 'cluster_vector', 'cluster_map'],
+['10000', 14, 59, 23, 16, 11, 16],
+['20000', 26, 147, 48, 35, 28, 32],
+['30000', 88, 242, 63, 52, 40, 46],
+['40000', 119, 231, 100, 73, 60, 69],
+['50000', 150, 311, 127, 105, 92, 125],
+['60000', 180, 435, 157, 137, 156, 146],
+['70000', 214, 470, 237, 176, 149, 179],
+['80000', 243, 609, 265, 207, 195, 226],
+['90000', 277, 818, 319, 239, 220, 299],
+['100000', 358, 974, 370, 279, 244, 302],
+]);
+var graph = new google.visualization.LineChart(document.getElementById('graph_random_write___struct_Trivial_64_'));
+var options = {curveType: "function",title: "random_write - struct Trivial<64>",animation: {duration:1200, easing:"in"},width: 700, height: 400,hAxis: {title:"Number of elements", slantedText:true},vAxis: {viewWindow: {min:0}, title:"us"}};
+graph.draw(data, options);
+var button = document.getElementById('graph_button_random_write___struct_Trivial_64_');
+button.onclick = function(){
+if(options.vAxis.logScale){
+button.value="Logarithmic Scale";
+} else {
+button.value="Normal scale";
+}
+options.vAxis.logScale=!options.vAxis.logScale;
+graph.draw(data, options);
+};
+}
+function draw_random_write___struct_Trivial_128_(){
+var data = google.visualization.arrayToDataTable([
+['x', 'vector', 'list', 'deque', 'colony', 'cluster_vector', 'cluster_map'],
+['10000', 13, 83, 32, 27, 27, 23],
+['20000', 92, 142, 62, 57, 60, 57],
+['30000', 135, 217, 97, 97, 109, 92],
+['40000', 184, 333, 125, 154, 202, 162],
+['50000', 235, 468, 178, 206, 218, 196],
+['60000', 268, 802, 281, 257, 273, 239],
+['70000', 315, 799, 290, 293, 319, 297],
+['80000', 323, 944, 336, 398, 375, 344],
+['90000', 349, 1197, 399, 407, 430, 396],
+['100000', 394, 1579, 484, 478, 480, 449],
+]);
+var graph = new google.visualization.LineChart(document.getElementById('graph_random_write___struct_Trivial_128_'));
+var options = {curveType: "function",title: "random_write - struct Trivial<128>",animation: {duration:1200, easing:"in"},width: 700, height: 400,hAxis: {title:"Number of elements", slantedText:true},vAxis: {viewWindow: {min:0}, title:"us"}};
+graph.draw(data, options);
+var button = document.getElementById('graph_button_random_write___struct_Trivial_128_');
+button.onclick = function(){
+if(options.vAxis.logScale){
+button.value="Logarithmic Scale";
+} else {
+button.value="Normal scale";
+}
+options.vAxis.logScale=!options.vAxis.logScale;
+graph.draw(data, options);
+};
+}
+function draw_random_write___struct_Trivial_1024_(){
+var data = google.visualization.arrayToDataTable([
+['x', 'vector', 'list', 'deque', 'colony', 'cluster_vector', 'cluster_map'],
+['10000', 41, 208, 39, 39, 34, 20],
+['20000', 79, 656, 111, 113, 80, 65],
+['30000', 176, 1579, 204, 118, 169, 137],
+['40000', 172, 2516, 296, 168, 186, 163],
+['50000', 219, 3030, 395, 298, 246, 207],
+['60000', 273, 3783, 531, 257, 345, 242],
+['70000', 324, 4381, 542, 290, 395, 281],
+['80000', 700, 5147, 609, 417, 370, 394],
+['90000', 436, 5859, 706, 363, 423, 380],
+['100000', 627, 6678, 762, 416, 478, 408],
+]);
+var graph = new google.visualization.LineChart(document.getElementById('graph_random_write___struct_Trivial_1024_'));
+var options = {curveType: "function",title: "random_write - struct Trivial<1024>",animation: {duration:1200, easing:"in"},width: 700, height: 400,hAxis: {title:"Number of elements", slantedText:true},vAxis: {viewWindow: {min:0}, title:"us"}};
+graph.draw(data, options);
+var button = document.getElementById('graph_button_random_write___struct_Trivial_1024_');
+button.onclick = function(){
+if(options.vAxis.logScale){
+button.value="Logarithmic Scale";
+} else {
+button.value="Normal scale";
+}
+options.vAxis.logScale=!options.vAxis.logScale;
+graph.draw(data, options);
+};
+}
+function draw_random_write___class_NonTrivialArray_32_(){
+var data = google.visualization.arrayToDataTable([
+['x', 'vector', 'list', 'deque', 'colony', 'cluster_vector', 'cluster_map'],
+['10000', 4, 35, 16, 14, 4, 6],
+['20000', 11, 78, 34, 30, 14, 18],
+['30000', 23, 134, 51, 43, 27, 31],
+['40000', 27, 193, 76, 60, 33, 38],
+['50000', 45, 272, 98, 74, 48, 54],
+['60000', 59, 291, 121, 90, 58, 72],
+['70000', 95, 348, 165, 107, 64, 90],
+['80000', 104, 383, 192, 123, 81, 117],
+['90000', 101, 464, 218, 137, 98, 134],
+['100000', 118, 511, 251, 158, 111, 153],
+]);
+var graph = new google.visualization.LineChart(document.getElementById('graph_random_write___class_NonTrivialArray_32_'));
+var options = {curveType: "function",title: "random_write - class NonTrivialArray<32>",animation: {duration:1200, easing:"in"},width: 700, height: 400,hAxis: {title:"Number of elements", slantedText:true},vAxis: {viewWindow: {min:0}, title:"us"}};
+graph.draw(data, options);
+var button = document.getElementById('graph_button_random_write___class_NonTrivialArray_32_');
+button.onclick = function(){
+if(options.vAxis.logScale){
+button.value="Logarithmic Scale";
+} else {
+button.value="Normal scale";
+}
+options.vAxis.logScale=!options.vAxis.logScale;
+graph.draw(data, options);
+};
+}
+function draw_all(){
+draw_fill_back___struct_Trivial_32_();
+draw_fill_back___struct_Trivial_64_();
+draw_fill_back___struct_Trivial_128_();
+draw_fill_back___struct_Trivial_1024_();
+draw_fill_back___class_NonTrivialArray_32_();
+draw_sequential_read___struct_Trivial_32_();
+draw_sequential_read___struct_Trivial_64_();
+draw_sequential_read___struct_Trivial_128_();
+draw_sequential_read___struct_Trivial_1024_();
+draw_sequential_read___class_NonTrivialArray_32_();
+draw_sequential_write___struct_Trivial_32_();
+draw_sequential_write___struct_Trivial_64_();
+draw_sequential_write___struct_Trivial_128_();
+draw_sequential_write___struct_Trivial_1024_();
+draw_sequential_write___class_NonTrivialArray_32_();
+draw_random_read___struct_Trivial_32_();
+draw_random_read___struct_Trivial_64_();
+draw_random_read___struct_Trivial_128_();
+draw_random_read___struct_Trivial_1024_();
+draw_random_read___class_NonTrivialArray_32_();
+draw_random_write___struct_Trivial_32_();
+draw_random_write___struct_Trivial_64_();
+draw_random_write___struct_Trivial_128_();
+draw_random_write___struct_Trivial_1024_();
+draw_random_write___class_NonTrivialArray_32_();
+}
+google.setOnLoadCallback(draw_all);
+</script>
+
+<div id="graph_fill_back___struct_Trivial_32_" style="width: 700px; height: 400px;"></div>
+<input id="graph_button_fill_back___struct_Trivial_32_" type="button" value="Logarithmic scale">
+<div id="graph_fill_back___struct_Trivial_64_" style="width: 700px; height: 400px;"></div>
+<input id="graph_button_fill_back___struct_Trivial_64_" type="button" value="Logarithmic scale">
+<div id="graph_fill_back___struct_Trivial_128_" style="width: 700px; height: 400px;"></div>
+<input id="graph_button_fill_back___struct_Trivial_128_" type="button" value="Logarithmic scale">
+<div id="graph_fill_back___struct_Trivial_1024_" style="width: 700px; height: 400px;"></div>
+<input id="graph_button_fill_back___struct_Trivial_1024_" type="button" value="Logarithmic scale">
+<div id="graph_fill_back___class_NonTrivialArray_32_" style="width: 700px; height: 400px;"></div>
+<input id="graph_button_fill_back___class_NonTrivialArray_32_" type="button" value="Logarithmic scale">
+<div id="graph_sequential_read___struct_Trivial_32_" style="width: 700px; height: 400px;"></div>
+<input id="graph_button_sequential_read___struct_Trivial_32_" type="button" value="Logarithmic scale">
+<div id="graph_sequential_read___struct_Trivial_64_" style="width: 700px; height: 400px;"></div>
+<input id="graph_button_sequential_read___struct_Trivial_64_" type="button" value="Logarithmic scale">
+<div id="graph_sequential_read___struct_Trivial_128_" style="width: 700px; height: 400px;"></div>
+<input id="graph_button_sequential_read___struct_Trivial_128_" type="button" value="Logarithmic scale">
+<div id="graph_sequential_read___struct_Trivial_1024_" style="width: 700px; height: 400px;"></div>
+<input id="graph_button_sequential_read___struct_Trivial_1024_" type="button" value="Logarithmic scale">
+<div id="graph_sequential_read___class_NonTrivialArray_32_" style="width: 700px; height: 400px;"></div>
+<input id="graph_button_sequential_read___class_NonTrivialArray_32_" type="button" value="Logarithmic scale">
+<div id="graph_sequential_write___struct_Trivial_32_" style="width: 700px; height: 400px;"></div>
+<input id="graph_button_sequential_write___struct_Trivial_32_" type="button" value="Logarithmic scale">
+<div id="graph_sequential_write___struct_Trivial_64_" style="width: 700px; height: 400px;"></div>
+<input id="graph_button_sequential_write___struct_Trivial_64_" type="button" value="Logarithmic scale">
+<div id="graph_sequential_write___struct_Trivial_128_" style="width: 700px; height: 400px;"></div>
+<input id="graph_button_sequential_write___struct_Trivial_128_" type="button" value="Logarithmic scale">
+<div id="graph_sequential_write___struct_Trivial_1024_" style="width: 700px; height: 400px;"></div>
+<input id="graph_button_sequential_write___struct_Trivial_1024_" type="button" value="Logarithmic scale">
+<div id="graph_sequential_write___class_NonTrivialArray_32_" style="width: 700px; height: 400px;"></div>
+<input id="graph_button_sequential_write___class_NonTrivialArray_32_" type="button" value="Logarithmic scale">
+<div id="graph_random_read___struct_Trivial_32_" style="width: 700px; height: 400px;"></div>
+<input id="graph_button_random_read___struct_Trivial_32_" type="button" value="Logarithmic scale">
+<div id="graph_random_read___struct_Trivial_64_" style="width: 700px; height: 400px;"></div>
+<input id="graph_button_random_read___struct_Trivial_64_" type="button" value="Logarithmic scale">
+<div id="graph_random_read___struct_Trivial_128_" style="width: 700px; height: 400px;"></div>
+<input id="graph_button_random_read___struct_Trivial_128_" type="button" value="Logarithmic scale">
+<div id="graph_random_read___struct_Trivial_1024_" style="width: 700px; height: 400px;"></div>
+<input id="graph_button_random_read___struct_Trivial_1024_" type="button" value="Logarithmic scale">
+<div id="graph_random_read___class_NonTrivialArray_32_" style="width: 700px; height: 400px;"></div>
+<input id="graph_button_random_read___class_NonTrivialArray_32_" type="button" value="Logarithmic scale">
+<div id="graph_random_write___struct_Trivial_32_" style="width: 700px; height: 400px;"></div>
+<input id="graph_button_random_write___struct_Trivial_32_" type="button" value="Logarithmic scale">
+<div id="graph_random_write___struct_Trivial_64_" style="width: 700px; height: 400px;"></div>
+<input id="graph_button_random_write___struct_Trivial_64_" type="button" value="Logarithmic scale">
+<div id="graph_random_write___struct_Trivial_128_" style="width: 700px; height: 400px;"></div>
+<input id="graph_button_random_write___struct_Trivial_128_" type="button" value="Logarithmic scale">
+<div id="graph_random_write___struct_Trivial_1024_" style="width: 700px; height: 400px;"></div>
+<input id="graph_button_random_write___struct_Trivial_1024_" type="button" value="Logarithmic scale">
+<div id="graph_random_write___class_NonTrivialArray_32_" style="width: 700px; height: 400px;"></div>
+<input id="graph_button_random_write___class_NonTrivialArray_32_" type="button" value="Logarithmic scale">
+</body>
+</html>
